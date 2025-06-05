@@ -1,0 +1,14 @@
+name = "P3P"
+uuid = "f5c7279d-66bf-4411-a4f9-1e4920ed35b2"
+authors = ["Lorenzo Shaikewitz <lorenzos@mit.edu>"]
+version = "0.1.0"
+
+[deps]
+FastPolynomialRoots = "1563e8c5-a255-588c-b09d-21601517bb22"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+
+[compat]
+FastPolynomialRoots = "1.0.3"
+LinearAlgebra = "1.11.0"
+Polynomials = "4.0.19"
