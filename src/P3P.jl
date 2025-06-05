@@ -9,8 +9,8 @@ import Polynomials, FastPolynomialRoots
 Unproject pixel coordinates and run p3p.
 
 # Inputs:
-- `y`: homogenized pixel coordinates for each column `[u; v; 1]` [3 x 3]
-- `b`: corresponding 3D points in each column [3 x 3]
+- `y`: pixel detection coordinates `[u; v; 1]` arranged as columns of a 3x3 matrix
+- `b`: corresponding 3D coordinates `[x; y; z]` arranged as columns of a 3x3 matrix
 - `camK`: camera calibration matrix [3 x 3]
 """
 function p3p(y, b, camK)
